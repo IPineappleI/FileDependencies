@@ -1,4 +1,4 @@
-import Controller.FileDependencyMapper;
+import Model.FileDependencyMapper;
 import Exceptions.CircularDependencyException;
 
 import java.io.IOException;
