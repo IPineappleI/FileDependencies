@@ -18,6 +18,9 @@ public class Main {
         } catch (IOException | CircularDependencyException e) {
             System.out.println(e.getMessage());
             return;
+        } catch (Exception e) {
+            System.out.println("Корневая папка не найдена.");
+            return;
         }
 
         System.out.println("Сортированный список файлов:");
